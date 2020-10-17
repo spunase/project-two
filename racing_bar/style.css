@@ -1,0 +1,15 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 10px;
+}
+.x-axis .tick line {
+  color: #d3d3d3;
+}
+
+.x-axis .tick text {
+  color: #d3d3d3;
+}

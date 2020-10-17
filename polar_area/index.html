@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Polar Area Chart for Mortgage</title>
+
+ <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <!-- The div that holds our chart -->
+  <div id="canvas-holder" style="width:50%">
+		<canvas id="chart-area"></canvas>
+	</div>
+	<button id="randomizeData">Randomize Data</button>
+	<button id="addData">Add Data</button>
+
+  <!-- Chart.js JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <!-- D3 JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>

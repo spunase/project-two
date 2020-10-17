@@ -1,0 +1,531 @@
+date,state,house_median_value
+1/1/2010,Alabama,123900
+1/1/2010,Alaska,241400
+1/1/2010,Arizona,168800
+1/1/2010,Arkansas,106300
+1/1/2010,California,370900
+1/1/2010,Colorado,236600
+1/1/2010,Connecticut,288800
+1/1/2010,Delaware,243600
+1/1/2010,District of Columbia,426900
+1/1/2010,Florida,164200
+1/1/2010,Georgia,156200
+1/1/2010,Hawaii,525400
+1/1/2010,Idaho,165100
+1/1/2010,Illinois,191800
+1/1/2010,Indiana,123300
+1/1/2010,Iowa,123400
+1/1/2010,Kansas,127300
+1/1/2010,Kentucky,121600
+1/1/2010,Louisiana,137500
+1/1/2010,Maine,179100
+1/1/2010,Maryland,301400
+1/1/2010,Massachusetts,334100
+1/1/2010,Michigan,123300
+1/1/2010,Minnesota,194300
+1/1/2010,Mississippi,100100
+1/1/2010,Missouri,139000
+1/1/2010,Montana,181200
+1/1/2010,Nebraska,127600
+1/1/2010,Nevada,174800
+1/1/2010,New Hampshire,243000
+1/1/2010,New Jersey,339200
+1/1/2010,New Mexico,161200
+1/1/2010,New York,296500
+1/1/2010,North Carolina,154200
+1/1/2010,North Dakota,123000
+1/1/2010,Ohio,134400
+1/1/2010,Oklahoma,111400
+1/1/2010,Oregon,244500
+1/1/2010,Pennsylvania,165500
+1/1/2010,Rhode Island,254500
+1/1/2010,South Carolina,138100
+1/1/2010,South Dakota,129700
+1/1/2010,Tennessee,139000
+1/1/2010,Texas,128100
+1/1/2010,Utah,217200
+1/1/2010,Vermont,216800
+1/1/2010,Virginia,249100
+1/1/2010,Washington,271800
+1/1/2010,West Virginia,95100
+1/1/2010,Wisconsin,169400
+1/1/2010,Wyoming,180100
+1/1/2010,Puerto Rico,120300
+1/1/2010,United States,179900
+1/1/2012,California,349400
+1/1/2012,Colorado,234900
+1/1/2012,Connecticut,267800
+1/1/2012,Delaware,226900
+1/1/2012,District of Columbia,460700
+1/1/2012,Florida,148200
+1/1/2012,Georgia,142300
+1/1/2012,Hawaii,496600
+1/1/2012,Idaho,154500
+1/1/2012,Illinois,170600
+1/1/2012,Indiana,122700
+1/1/2012,Iowa,126300
+1/1/2012,Kansas,130100
+1/1/2012,Kentucky,120800
+1/1/2012,Louisiana,139500
+1/1/2012,Maine,172300
+1/1/2012,Maryland,279900
+1/1/2012,Massachusetts,323800
+1/1/2012,Michigan,115700
+1/1/2012,Minnesota,178400
+1/1/2012,Mississippi,99800
+1/1/2012,Missouri,135000
+1/1/2012,Montana,184800
+1/1/2012,Nebraska,128300
+1/1/2012,Nevada,150700
+1/1/2012,New Hampshire,236000
+1/1/2012,New Jersey,311600
+1/1/2012,New Mexico,157500
+1/1/2012,New York,280900
+1/1/2012,North Carolina,150100
+1/1/2012,North Dakota,142500
+1/1/2012,Ohio,127600
+1/1/2012,Oklahoma,114300
+1/1/2012,Oregon,223900
+1/1/2012,Pennsylvania,163800
+1/1/2012,Rhode Island,234600
+1/1/2012,South Carolina,135500
+1/1/2012,South Dakota,134300
+1/1/2012,Tennessee,137800
+1/1/2012,Texas,129200
+1/1/2012,Utah,199700
+1/1/2012,Vermont,216900
+1/1/2012,Virginia,237800
+1/1/2012,Washington,243000
+1/1/2012,West Virginia,100400
+1/1/2012,Wisconsin,165200
+1/1/2012,Wyoming,187400
+1/1/2012,Puerto Rico,127300
+1/1/2012,Alabama,123200
+1/1/2012,Alaska,245100
+1/1/2012,Arizona,151500
+1/1/2012,Arkansas,107600
+1/1/2012,United States,171900
+1/1/2013,Alabama,122700
+1/1/2013,Alaska,254000
+1/1/2013,Arizona,166000
+1/1/2013,Arkansas,109500
+1/1/2013,California,373100
+1/1/2013,Colorado,240500
+1/1/2013,Connecticut,267000
+1/1/2013,Delaware,226200
+1/1/2013,District of Columbia,470500
+1/1/2013,Florida,153300
+1/1/2013,Georgia,141600
+1/1/2013,Hawaii,500000
+1/1/2013,Idaho,159000
+1/1/2013,Illinois,169600
+1/1/2013,Indiana,122200
+1/1/2013,Iowa,126900
+1/1/2013,Kansas,129700
+1/1/2013,Kentucky,120900
+1/1/2013,Louisiana,140300
+1/1/2013,Maine,172800
+1/1/2013,Maryland,280200
+1/1/2013,Massachusetts,327200
+1/1/2013,Michigan,117500
+1/1/2013,Minnesota,180100
+1/1/2013,Mississippi,97500
+1/1/2013,Missouri,133200
+1/1/2013,Montana,190100
+1/1/2013,Nebraska,132700
+1/1/2013,Nevada,165300
+1/1/2013,New Hampshire,233300
+1/1/2013,New Jersey,307700
+1/1/2013,New Mexico,159200
+1/1/2013,New York,277600
+1/1/2013,North Carolina,154300
+1/1/2013,North Dakota,155400
+1/1/2013,Ohio,127000
+1/1/2013,Oklahoma,116500
+1/1/2013,Oregon,229700
+1/1/2013,Pennsylvania,164200
+1/1/2013,Rhode Island,232300
+1/1/2013,South Carolina,139200
+1/1/2013,South Dakota,138400
+1/1/2013,Tennessee,140300
+1/1/2013,Texas,132000
+1/1/2013,Utah,211400
+1/1/2013,Vermont,218300
+1/1/2013,Virginia,239300
+1/1/2013,Washington,250800
+1/1/2013,West Virginia,103200
+1/1/2013,Wisconsin,163000
+1/1/2013,Wyoming,195500
+1/1/2013,Puerto Rico,119900
+1/1/2013,United States,173900
+1/1/2014,Alabama,125600
+1/1/2014,Alaska,254500
+1/1/2014,Arizona,176700
+1/1/2014,Arkansas,112500
+1/1/2014,California,412700
+1/1/2014,Colorado,255200
+1/1/2014,Connecticut,267200
+1/1/2014,Delaware,230500
+1/1/2014,District of Columbia,486900
+1/1/2014,Florida,162700
+1/1/2014,Georgia,147900
+1/1/2014,Hawaii,528000
+1/1/2014,Idaho,165300
+1/1/2014,Illinois,171900
+1/1/2014,Indiana,124300
+1/1/2014,Iowa,133100
+1/1/2014,Kansas,132100
+1/1/2014,Kentucky,123800
+1/1/2014,Louisiana,143600
+1/1/2014,Maine,174800
+1/1/2014,Maryland,288500
+1/1/2014,Massachusetts,338900
+1/1/2014,Michigan,125700
+1/1/2014,Minnesota,188300
+1/1/2014,Mississippi,104000
+1/1/2014,Missouri,138500
+1/1/2014,Montana,196800
+1/1/2014,Nebraska,133800
+1/1/2014,Nevada,192100
+1/1/2014,New Hampshire,236400
+1/1/2014,New Jersey,313200
+1/1/2014,New Mexico,158400
+1/1/2014,New York,279100
+1/1/2014,North Carolina,155000
+1/1/2014,North Dakota,161800
+1/1/2014,Ohio,129100
+1/1/2014,Oklahoma,119800
+1/1/2014,Oregon,239800
+1/1/2014,Pennsylvania,165400
+1/1/2014,Rhode Island,236000
+1/1/2014,South Carolina,140000
+1/1/2014,South Dakota,142300
+1/1/2014,Tennessee,142900
+1/1/2014,Texas,139600
+1/1/2014,Utah,223200
+1/1/2014,Vermont,214600
+1/1/2014,Virginia,247800
+1/1/2014,Washington,266200
+1/1/2014,West Virginia,103900
+1/1/2014,Wisconsin,164700
+1/1/2014,Wyoming,201000
+1/1/2014,Puerto Rico,120800
+1/1/2014,United States,181200
+1/1/2015,Alabama,134100
+1/1/2015,Alaska,259600
+1/1/2015,Arizona,194300
+1/1/2015,Arkansas,120700
+1/1/2015,California,449100
+1/1/2015,Colorado,283800
+1/1/2015,Connecticut,270900
+1/1/2015,Delaware,240200
+1/1/2015,District of Columbia,551300
+1/1/2015,Florida,179800
+1/1/2015,Georgia,159300
+1/1/2015,Hawaii,566900
+1/1/2015,Idaho,176300
+1/1/2015,Illinois,180300
+1/1/2015,Indiana,131000
+1/1/2015,Iowa,136100
+1/1/2015,Kansas,141200
+1/1/2015,Kentucky,130000
+1/1/2015,Louisiana,155600
+1/1/2015,Maine,180300
+1/1/2015,Maryland,299800
+1/1/2015,Massachusetts,352100
+1/1/2015,Michigan,137500
+1/1/2015,Minnesota,200000
+1/1/2015,Mississippi,112700
+1/1/2015,Missouri,147800
+1/1/2015,Montana,209500
+1/1/2015,Nebraska,141600
+1/1/2015,Nevada,221400
+1/1/2015,New Hampshire,244500
+1/1/2015,New Jersey,322600
+1/1/2015,New Mexico,164100
+1/1/2015,New York,293500
+1/1/2015,North Carolina,160100
+1/1/2015,North Dakota,180900
+1/1/2015,Ohio,136400
+1/1/2015,Oklahoma,126800
+1/1/2015,Oregon,264100
+1/1/2015,Pennsylvania,170600
+1/1/2015,Rhode Island,241000
+1/1/2015,South Carolina,148600
+1/1/2015,South Dakota,152800
+1/1/2015,Tennessee,150600
+1/1/2015,Texas,152000
+1/1/2015,Utah,234600
+1/1/2015,Vermont,223700
+1/1/2015,Virginia,257800
+1/1/2015,Washington,284000
+1/1/2015,West Virginia,112100
+1/1/2015,Wisconsin,168300
+1/1/2015,Wyoming,212500
+1/1/2015,Puerto Rico,114100
+1/1/2015,United States,194500
+1/1/2016,Alabama,136200
+1/1/2016,Alaska,267800
+1/1/2016,Arizona,205900
+1/1/2016,Arkansas,123300
+1/1/2016,California,477500
+1/1/2016,Colorado,314200
+1/1/2016,Connecticut,274600
+1/1/2016,Delaware,243400
+1/1/2016,District of Columbia,576100
+1/1/2016,Florida,197700
+1/1/2016,Georgia,166800
+1/1/2016,Hawaii,592000
+1/1/2016,Idaho,189400
+1/1/2016,Illinois,186500
+1/1/2016,Indiana,134800
+1/1/2016,Iowa,142300
+1/1/2016,Kansas,144900
+1/1/2016,Kentucky,135600
+1/1/2016,Louisiana,158000
+1/1/2016,Maine,184700
+1/1/2016,Maryland,306900
+1/1/2016,Massachusetts,366900
+1/1/2016,Michigan,147100
+1/1/2016,Minnesota,211800
+1/1/2016,Mississippi,113900
+1/1/2016,Missouri,151400
+1/1/2016,Montana,217200
+1/1/2016,Nebraska,148100
+1/1/2016,Nevada,239500
+1/1/2016,New Hampshire,251100
+1/1/2016,New Jersey,328200
+1/1/2016,New Mexico,167500
+1/1/2016,New York,302400
+1/1/2016,North Carolina,165400
+1/1/2016,North Dakota,184100
+1/1/2016,Ohio,140100
+1/1/2016,Oklahoma,132200
+1/1/2016,Oregon,287100
+1/1/2016,Pennsylvania,174100
+1/1/2016,Rhode Island,247700
+1/1/2016,South Carolina,153900
+1/1/2016,South Dakota,160700
+1/1/2016,Tennessee,157700
+1/1/2016,Texas,161500
+1/1/2016,Utah,250300
+1/1/2016,Vermont,223700
+1/1/2016,Virginia,264000
+1/1/2016,Washington,306400
+1/1/2016,West Virginia,117900
+1/1/2016,Wisconsin,173200
+1/1/2016,Wyoming,209500
+1/1/2016,Puerto Rico,111900
+1/1/2016,United States,205000
+1/1/2017,Alabama,141300
+1/1/2017,Alaska,273100
+1/1/2017,Arizona,223400
+1/1/2017,Arkansas,128500
+1/1/2017,California,509400
+1/1/2017,Colorado,348900
+1/1/2017,Connecticut,273100
+1/1/2017,Delaware,252800
+1/1/2017,District of Columbia,607200
+1/1/2017,Florida,214000
+1/1/2017,Georgia,173700
+1/1/2017,Hawaii,617400
+1/1/2017,Idaho,207100
+1/1/2017,Illinois,195300
+1/1/2017,Indiana,141100
+1/1/2017,Iowa,149100
+1/1/2017,Kansas,150600
+1/1/2017,Kentucky,141000
+1/1/2017,Louisiana,162500
+1/1/2017,Maine,191200
+1/1/2017,Maryland,312500
+1/1/2017,Massachusetts,385400
+1/1/2017,Michigan,155700
+1/1/2017,Minnesota,224000
+1/1/2017,Mississippi,120200
+1/1/2017,Missouri,156700
+1/1/2017,Montana,231300
+1/1/2017,Nebraska,155800
+1/1/2017,Nevada,258200
+1/1/2017,New Hampshire,263600
+1/1/2017,New Jersey,334900
+1/1/2017,New Mexico,171300
+1/1/2017,New York,314500
+1/1/2017,North Carolina,171200
+1/1/2017,North Dakota,194700
+1/1/2017,Ohio,144200
+1/1/2017,Oklahoma,137400
+1/1/2017,Oregon,319200
+1/1/2017,Pennsylvania,181200
+1/1/2017,Rhode Island,257800
+1/1/2017,South Carolina,161800
+1/1/2017,South Dakota,167600
+1/1/2017,Tennessee,167500
+1/1/2017,Texas,172200
+1/1/2017,Utah,275100
+1/1/2017,Vermont,226300
+1/1/2017,Virginia,273400
+1/1/2017,Washington,339000
+1/1/2017,West Virginia,119800
+1/1/2017,Wisconsin,178900
+1/1/2017,Wyoming,214300
+1/1/2017,Puerto Rico,109800
+1/1/2017,United States,217600
+1/1/2018,Illinois,203400
+1/1/2018,Iowa,152000
+1/1/2018,Missouri,162600
+1/1/2018,Nevada,292200
+1/1/2018,Pennsylvania,186000
+1/1/2018,Utah,303300
+1/1/2018,West Virginia,121300
+1/1/2018,Colorado,373300
+1/1/2018,Georgia,189900
+1/1/2018,Idaho,233100
+1/1/2018,Maryland,324800
+1/1/2018,New Jersey,344000
+1/1/2018,New Mexico,174700
+1/1/2018,Ohio,151100
+1/1/2018,Alaska,276100
+1/1/2018,Florida,230600
+1/1/2018,Hawaii,631700
+1/1/2018,Massachusetts,400700
+1/1/2018,South Carolina,170800
+1/1/2018,District of Columbia,617900
+1/1/2018,Maine,197500
+1/1/2018,North Carolina,180600
+1/1/2018,South Dakota,171500
+1/1/2018,Alabama,147900
+1/1/2018,Indiana,147300
+1/1/2018,Kentucky,148100
+1/1/2018,Louisiana,167300
+1/1/2018,Tennessee,177500
+1/1/2018,Vermont,233100
+1/1/2018,Washington,373100
+1/1/2018,Michigan,162500
+1/1/2018,Nebraska,161800
+1/1/2018,New Hampshire,270000
+1/1/2018,Oklahoma,140000
+1/1/2018,Oregon,341800
+1/1/2018,Rhode Island,273800
+1/1/2018,Wisconsin,188500
+1/1/2018,Wyoming,230500
+1/1/2018,Puerto Rico,110800
+1/1/2018,Arkansas,133100
+1/1/2018,California,546800
+1/1/2018,Delaware,255300
+1/1/2018,Kansas,159400
+1/1/2018,Minnesota,235400
+1/1/2018,Mississippi,123300
+1/1/2018,Montana,249200
+1/1/2018,Virginia,281700
+1/1/2018,Arizona,241100
+1/1/2018,Connecticut,277400
+1/1/2018,New York,325500
+1/1/2018,North Dakota,198700
+1/1/2018,Texas,186000
+1/1/2018,United States,229700
+1/1/2019,Alabama,154000
+1/1/2019,Alaska,281200
+1/1/2019,Arizona,255900
+1/1/2019,Arkansas,136200
+1/1/2019,California,568500
+1/1/2019,Colorado,394600
+1/1/2019,Connecticut,280700
+1/1/2019,Delaware,261700
+1/1/2019,District of Columbia,646500
+1/1/2019,Florida,245100
+1/1/2019,Georgia,202500
+1/1/2019,Hawaii,669200
+1/1/2019,Idaho,255200
+1/1/2019,Illinois,209100
+1/1/2019,Indiana,156000
+1/1/2019,Iowa,158900
+1/1/2019,Kansas,163200
+1/1/2019,Kentucky,151700
+1/1/2019,Louisiana,172100
+1/1/2019,Maine,200500
+1/1/2019,Maryland,332500
+1/1/2019,Massachusetts,418600
+1/1/2019,Michigan,169600
+1/1/2019,Minnesota,246700
+1/1/2019,Mississippi,128200
+1/1/2019,Missouri,168000
+1/1/2019,Montana,253600
+1/1/2019,Nebraska,172700
+1/1/2019,Nevada,317800
+1/1/2019,New Hampshire,281400
+1/1/2019,New Jersey,348800
+1/1/2019,New Mexico,180900
+1/1/2019,New York,338700
+1/1/2019,North Carolina,193200
+1/1/2019,North Dakota,205400
+1/1/2019,Ohio,157200
+1/1/2019,Oklahoma,147000
+1/1/2019,Oregon,354600
+1/1/2019,Pennsylvania,192600
+1/1/2019,Rhode Island,283000
+1/1/2019,South Carolina,179800
+1/1/2019,South Dakota,185000
+1/1/2019,Tennessee,191900
+1/1/2019,Texas,200400
+1/1/2019,Utah,330300
+1/1/2019,Vermont,233200
+1/1/2019,Virginia,288800
+1/1/2019,Washington,387600
+1/1/2019,West Virginia,124600
+1/1/2019,Wisconsin,197200
+1/1/2019,Wyoming,235200
+1/1/2019,Puerto Rico,110300
+1/1/2019,United States,240500
+1/1/2011,Alabama,122700
+1/1/2011,Alaska,238300
+1/1/2011,Arizona,153800
+1/1/2011,Arkansas,106300
+1/1/2011,California,355600
+1/1/2011,Colorado,233700
+1/1/2011,Connecticut,278700
+1/1/2011,Delaware,236900
+1/1/2011,District of Columbia,422400
+1/1/2011,Florida,151000
+1/1/2011,Georgia,147100
+1/1/2011,Hawaii,487400
+1/1/2011,Idaho,158800
+1/1/2011,Illinois,178500
+1/1/2011,Indiana,122400
+1/1/2011,Iowa,123400
+1/1/2011,Kansas,128300
+1/1/2011,Kentucky,120600
+1/1/2011,Louisiana,139400
+1/1/2011,Maine,171600
+1/1/2011,Maryland,287100
+1/1/2011,Massachusetts,326300
+1/1/2011,Michigan,118100
+1/1/2011,Minnesota,183500
+1/1/2011,Mississippi,99900
+1/1/2011,Missouri,136900
+1/1/2011,Montana,184100
+1/1/2011,Nebraska,127400
+1/1/2011,Nevada,158000
+1/1/2011,New Hampshire,237500
+1/1/2011,New Jersey,324900
+1/1/2011,New Mexico,159000
+1/1/2011,New York,285300
+1/1/2011,North Carolina,153700
+1/1/2011,North Dakota,128600
+1/1/2011,Ohio,129600
+1/1/2011,Oklahoma,112600
+1/1/2011,Oregon,232900
+1/1/2011,Pennsylvania,164800
+1/1/2011,Rhode Island,245500
+1/1/2011,South Carolina,136000
+1/1/2011,South Dakota,131400
+1/1/2011,Tennessee,138300
+1/1/2011,Texas,127700
+1/1/2011,Utah,207500
+1/1/2011,Vermont,213700
+1/1/2011,Virginia,243100
+1/1/2011,Washington,256300
+1/1/2011,West Virginia,99300
+1/1/2011,Wisconsin,166700
+1/1/2011,Wyoming,179900
+1/1/2011,Puerto Rico,120300
+1/1/2011,United States,173600
