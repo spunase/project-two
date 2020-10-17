@@ -1,13 +1,48 @@
 var randomScalingFactor = function() {
   return Math.round(Math.random() * 100);
 };
-// var csvdata = d3.csv("/housing_test.csv", d3.autoType);
-// var keys = d3.csvdata.key();
-// console.log(keys);
+var csvdata = d3.csv("final_dataset_101520.csv")
+    .then(data => {
+        data.forEach(d => {
+            d.total = +d.year;
+            d.value_50k_less	= +d.value_50k_less
+            d.value_50000to99999	= +d.value_50000to99999
+            d.value_100000to149999	= +d.value_100000to149999
+            d.value_150000to199999 = +d.value_150000to199999	
+            d.value_200000to299999	= +d.value_200000to299999
+            d.value_300000to499999	= +d.value_300000to499999
+            d.value_500000to999999 = +d.value_500000to999999	
+            d.value_1M_more = +d.value_1M_more
+        });   
+
+        var allYears = new Set(data.map(d => +d.year));
+        // add the options to the year drop-down button
+        d3.select("#yearDropdown")
+            .selectAll('myOptions')
+                .data(allYears)
+            .enter()
+            .append('option')
+            .text(function (d) { return d; }) // text showed in the menu
+            .attr("value", function (d) { return d; }); // corresponding value returned by the button
+
+        var allStates = new Set(data.map(d => d.state));
+        // add the options to the year drop-down button
+        d3.select("#stateDropdown")
+            .selectAll('myOptions')
+                .data(allStates)
+            .enter()
+            .append('option')
+            .text(function (d) { return d; }) // text showed in the menu
+            .attr("value", function (d) { return d; }); // corresponding value returned by the button
+
+        var year = 2019;                 // Initialize with year 2019 so this is the chart default
+        var yearData = getFilteredData(data, year);
+        console.log("Default year 2019", yearData);
+});
 
 var jsonfile = {
   "ALarray": [{
-    "name": "less then 50,000",
+    "name": "less than 50,000",
     "value": 390929
   }, 
   {
@@ -23,7 +58,7 @@ var jsonfile = {
     "value": 38151
   },
   {
-    "name": "200,000 to ",
+    "name": "200,000 to 249,999",
     "value": 12900
   },
   {
@@ -65,7 +100,7 @@ var config = {
         color(chartColors.grey).alpha(0.5).rgbString(),
         color(chartColors.yellow).alpha(0.5).rgbString()
       ],
-      label: 'Paid Percentage' // for legend
+      label: 'Value' // for legend
     }],
     labels: labels
   },
@@ -76,7 +111,7 @@ var config = {
     },
     title: {
       display: true,
-      text: 'Housing Mortgage Polar Area Chart'
+      text: 'Housing Value Polar Area Chart'
     },
     scale: {
       ticks: {
@@ -96,7 +131,7 @@ window.onload = function() {
   window.myPolarArea = new Chart(ctx, config);
 };
 
-document.getElementById('randomizeData').addEventListener('click', function() {
+document.getElementById('yearDropdown').addEventListener('click', function() {
   config.data.datasets.forEach(function(piece, i) {
     piece.data.forEach(function(value, j) {
       config.data.datasets[i].data[j] = randomScalingFactor();
@@ -105,15 +140,33 @@ document.getElementById('randomizeData').addEventListener('click', function() {
   window.myPolarArea.update();
 });
 
-var colorNames = Object.keys(window.chartColors);
-document.getElementById('addData').addEventListener('click', function() {
-  if (config.data.datasets.length > 0) {
-    config.data.labels.push('data #' + config.data.labels.length);
-    config.data.datasets.forEach(function(dataset) {
-      var colorName = colorNames[config.data.labels.length % colorNames.length];
-      dataset.backgroundColor.push(window.chartColors[colorName]);
-      dataset.data.push(randomScalingFactor());
-    });
-    window.myPolarArea.update();
-  }
+// When the button is changed, run the updateChart function
+document.getElementById('yearDropdown').addEventListener('change', function() {
+  // recover the option that has been chosen
+  var selectedYear = d3.select(this).property("value");
+  console.log(selectedYear);
+  console.log(data);
+  var yearData = getFilteredData(data, selectedYear);
+  console.log("selected year",yearData);
+  // run the updateChart function with this selected option
+  // extract the data for the year selected by user  
+  window.myPolarArea.update();
 });
+
+// var colorNames = Object.keys(window.chartColors);
+// document.getElementById('addData').addEventListener('click', function() {
+//   if (config.data.datasets.length > 0) {
+//     config.data.labels.push('data #' + config.data.labels.length);
+//     config.data.datasets.forEach(function(dataset) {
+//       var colorName = colorNames[config.data.labels.length % colorNames.length];
+//       dataset.backgroundColor.push(window.chartColors[colorName]);
+//       dataset.data.push(randomScalingFactor());
+//     });
+//     window.myPolarArea.update();
+//   }
+// });
+
+ // Get a subset of the data based on the group
+function getFilteredData(data, year) {
+  return data.filter(function(d){return d.year == year;})
+};
